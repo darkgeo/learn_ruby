@@ -1,7 +1,6 @@
 #write your code here
 def ftoc(f)
-  offset = f - 32
-  (offset * 0.555).ceil.to_i
+  (f - 32 )*5/9
 end
 
 def ctof(c)
