@@ -15,3 +15,7 @@ def repeat(hello, repeat=2)
 def start_of_word(hello,y)
   hello[0..y-1]
 end
+
+def first_word(hello_world)
+  hello_world.split(" ")[0]
+end
